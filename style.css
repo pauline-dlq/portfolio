@@ -1,0 +1,59 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	background: url(bg1.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+.barre{
+	position: fixed;
+	height: 100px;
+	width: 100%;
+
+
+}
+.barre .logo{
+	width: 50px;
+	height: 50px;
+	padding: 10px ;
+}
+.barre ul{
+	float: right;
+	margin-right: 20px;
+}
+.barre  ul li{
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.barre ul li a{
+	font-size: 20px;
+	font-family: 'helvetic', sans-serif;
+	color: white;
+	padding: 6px 13px;
+
+
+}
+.barre ul li a.active,
+.barre ul li a:hover{
+	background: pink;
+	border-radius: 2px;
+}
+.container .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
